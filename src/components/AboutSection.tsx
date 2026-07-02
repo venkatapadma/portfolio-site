@@ -30,7 +30,7 @@ const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="src/assets/Venkata Padma Ganapathi CV.docx"
+                href="src/assets/Resume.pdf"
                 className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
