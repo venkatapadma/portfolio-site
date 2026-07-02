@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built with **React** and **TypeScript** to showcase my projects, skills, experience, and contact information.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive design for desktop, tablet, and mobile
+- Modern and clean user interface
+- Built with React and TypeScript
+- Smooth navigation and user experience
+- Project showcase section
+- Skills and technologies section
+- About Me section
+- Contact section
+- Fast and optimized performance
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **TypeScript**
+- **HTML5**
+- **CSS3** / **Tailwind CSS** _(Update if applicable)_
+- **Vite** _(or Create React App - update as needed)_
+- **Git & GitHub**
 
-## Expanding the ESLint configuration
+> Adjust the folder structure above if your project differs.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (v18 or later recommended)
+- npm or yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎨 Customization
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+You can easily customize the portfolio by updating:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Personal information
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Projects
+
+Skills
+
+Contact Information
+
+Social media links
+
+Theme and colors
+
+📸 Screenshots
+<img width="1000" height="700" alt="Screenshot 2026-07-02 at 12 20 26" src="https://github.com/user-attachments/assets/0b877833-a8b7-4fce-97b4-27080c8f9c7b" />
+
+## 🌍 Live Demo
+
+https://your-portfolio-url.com
+
+🤝 Contributing
+
+This project is intended as a personal portfolio, but suggestions and feedback are always welcome.
+
+⭐ If you like this project, consider giving it a star on GitHub!
+
+### Installation
+
+```bash
+1. Clone the repository:
+
+git clone [https://github.com/your-username/your-portfolio.git](https://github.com/venkatapadma/portfolio_website.git)
+
+
+Navigate to the project directory:
+
+cd your-portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+The application will be available at:
+
+http://localhost:5173
+
+
+📦 Build for Production
+
+npm run build
+
+
+To preview the production build:
+
+npm run preview
 ```
