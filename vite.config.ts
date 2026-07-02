@@ -3,9 +3,12 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from "path"
 
-// https://vite.dev/config/
 export default defineConfig({
   base: '/portfolio_website/',
+  server: {
+    port:3000,
+    open: true,
+  },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
