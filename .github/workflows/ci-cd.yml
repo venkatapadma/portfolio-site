@@ -8,37 +8,37 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    # Job-level permissions (required by deploy-pages)
     permissions:
       contents: read
       pages: write
       id-token: write
 
+    # Job-level environment (required by the Pages deployment API)
+    environment:
+      name: github-pages
+
     steps:
-      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v6
 
-      # setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: "24"
 
-      # Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Build the project
       - name: Build project
         run: npm run build
 
-      #Upload artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "./dist"
 
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
