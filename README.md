@@ -23,8 +23,6 @@ A modern and responsive personal portfolio website built with **React** and **Ty
 - **Vite** _(or Create React App - update as needed)_
 - **Git & GitHub**
 
-> Adjust the folder structure above if your project differs.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -48,12 +46,11 @@ Social media links
 
 Theme and colors
 
-📸 Screenshots
 <img width="1000" height="700" alt="Screenshot 2026-07-02 at 12 20 26" src="https://github.com/user-attachments/assets/0b877833-a8b7-4fce-97b4-27080c8f9c7b" />
 
 ## 🌍 Live Demo
 
-https://your-portfolio-url.com
+[https://padma-portfolio.com](https://venkatapadma.github.io/portfolio_website/)
 
 🤝 Contributing
 
