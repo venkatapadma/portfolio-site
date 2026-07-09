@@ -75,6 +75,22 @@ const projects = [
     ],
     githubUrl: "https://github.com/venkatapadma/BankingApplication",
   },
+  {
+    id: 3,
+    title: "Fraud-Detection-System",
+    description:
+      "This application detects potentially fraudulent transactions using kafka streams like \n\n High-Value Transaction and \n\n Multiple Transactions Within 10 Seconds",
+    image: `${import.meta.env.BASE_URL}projects/fraud-detection-app.png`,
+    tags: [
+      "Java",
+      "Spring Boot",
+      "REST API",
+      "Maven",
+      "Kafka",
+      "Kafka Streams",
+    ],
+    githubUrl: "https://github.com/venkatapadma/Fraud-Detection-System",
+  },
 ];
 
 const ProjectsSection = () => {
