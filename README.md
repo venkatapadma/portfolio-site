@@ -50,7 +50,7 @@ Theme and colors
 
 ## 🌍 Live Demo
 
-[https://padma-portfolio.com](https://venkatapadma.github.io/portfolio_site/)
+[https://padma-portfolio.com](https://venkatapadma.github.io/portfolio-site/)
 
 🤝 Contributing
 
